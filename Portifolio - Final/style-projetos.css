@@ -1,0 +1,162 @@
+/*Estilizaçoes da aba projetos*/
+
+html{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 250vh;
+}
+main{
+    background: url("./Content/img/fundo.jpg") no-repeat center center;
+    background-size: cover;
+    height: 250vh;
+}
+
+/* container projetos */
+
+.projetos-container-1{
+    width: 85%;
+    height: 140vh;
+    display: flex;
+    gap: 75px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 100vh;
+}
+.projetos-container-1-filhos{
+    height: 40vh;
+    width: 30vh;
+    border-radius: 25px 0px 25px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projetos-container-1-filhos-img{
+    height: 40vh;
+    width: 30vh;
+    border-radius: 25px 0px 25px 0px;
+    display: flex;
+    justify-content: center;
+    background: url('./Content/img/ProjetoCalc.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.projetos-container-1-filhos-img a{
+    background-color: aqua;
+    z-index: 2;
+    height: 36vh;
+    width: 30vh;
+    border-radius: 25px 0px 25px 0px;
+    opacity: 0;
+}
+.projetos-container-1-filhos p{
+    font-family: "Poppins", Arial;
+    font-size: 25px;
+    color: azure;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.projetos-container-2-filhos{
+    height: 40vh;
+    width: 30vh;
+    border-radius: 25px 0px 25px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projetos-container-2-filhos-img{
+    height: 40vh;
+    width: 30vh;
+    border-radius: 25px 0px 25px 0px;
+    display: flex;
+    justify-content: center;
+    background: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.projetos-container-2-filhos-img a{
+    background-color: aqua;
+    z-index: 2;
+    height: 36vh;
+    width: 30vh;
+    border-radius: 25px 0px 25px 0px;
+    opacity: 0;
+}
+.projetos-container-2-filhos p{
+    font-family: "Poppins", Arial;
+    font-size: 25px;
+    color: azure;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.projetos-container-3-filhos{
+    height: 40vh;
+    width: 30vh;
+    border-radius: 25px 0px 25px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projetos-container-3-filhos-img{
+    height: 40vh;
+    width: 30vh;
+    border-radius: 25px 0px 25px 0px;
+    display: flex;
+    justify-content: center;
+    background: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.projetos-container-3-filhos-img a{
+    background-color: aqua;
+    z-index: 2;
+    height: 36vh;
+    width: 30vh;
+    border-radius: 25px 0px 25px 0px;
+    opacity: 0;
+}
+.projetos-container-3-filhos p{
+    font-family: "Poppins", Arial;
+    font-size: 25px;
+    color: azure;
+    text-align: center;
+}

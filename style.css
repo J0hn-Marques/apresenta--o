@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-weight: 400;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    z-index: -10;
+    overflow: hidden;
+}
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+span{
+    color: aliceblue;   
+    font-size: 20px;
+    text-align: center;
+}
+.typed-cursor {
+    display: none;
+}
+.box{
+    width: 20%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index: 222;
+    background-color: rgba(255,255,255,0.8);
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow: 40px 40px 0px 0px white;
+    margin-bottom: 50px;
+}
+.box a{
+    z-index: 5;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 45px;
+}
+.box i{
+    font-size: 60px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.links h1{
+    text-align: center;
+}
+.foto{
+    position: relative;
+    width: 20vh;
+    height: 20vh;
+    z-index: 999;
+    display: flex;
+    border-radius: 50%; 
+    margin-bottom: 25px;
+}
+.foto video{
+    width: 20vh;
+    border-radius: 50%; 
+}
+
+@media screen and (max-width : 1280px){
+    
+    video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    object-fit: cover;
+    }
+    span{
+    color: aliceblue;   
+    font-size: 15px;
+    text-align: center;
+    }
+
+    .box{
+        flex-direction: row;
+        width: 60%;
+        height: 50vh;
+        margin-top: 50px;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        justify-content: center;
+    }
+
+    .icons{
+        display: none;
+    }
+    .links{
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .box i{
+        font-size: 22px;
+        margin: 0 10px;
+    }
+    .foto{
+        border: 2px solid white;
+        
+         border-left: 0;
+    }
+}
